@@ -1,6 +1,6 @@
 # Utiliser l'appareil photo et les enregistrer dans le cache
 
-Dans cette quête, tu apprendras à prendre une photo sur ton terminal Android, tout en déléguant le travail à l'application caméra par défaut.
+Dans cette quête, tu apprendras à capturer une photo sur ton terminal Android, tout en déléguant le travail à l'application de caméra.
 
 ## Objectifs
 
@@ -41,7 +41,7 @@ Pour déléguer des actions à d'autres applications, Android utilise un `Intent
 
 L'`Intent` sur `MediaStore.ACTION_IMAGE_CAPTURE` va te permettre d'accéder à la caméra du téléphone.
 
-La valeur de la constante `REQUEST_IMAGE_CAPTURE` est impportante : elle servira de "clé" de réponse quand la photo sera prise : il ne faut pas qu'une autre constante ait la même valeur dans ta classe !
+La valeur de la constante `REQUEST_IMAGE_CAPTURE` est importante : elle servira de "clé" de réponse quand la photo sera prise : il ne faut pas qu'une autre constante ait la même valeur dans ta classe !
 
 #### Ressources
 
